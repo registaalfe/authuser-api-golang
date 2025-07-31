@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/registaalfe/authuser-api-golang/api"
-	"github.com/registaalfe/authuser-api-golang/internal/tools"
+	"github.com/registaalfe/authuser-api-golang.git/api"
+	"github.com/registaalfe/authuser-api-golang.git/internal/tools"
 	log "github.com/sirupsen/logrus"
 )
 
