@@ -15,7 +15,7 @@ func main() {
 	var r *chi.Mux = chi.NewRouter() // Create a new router instance using chi
 	handlers.Handler(r)              // Call the Handler function to register all routes and their handlers
 
-	fmt.Println("Starting GO API service...")
+	fmt.Println("Starting web on port 8000")
 	err := http.ListenAndServe("localhost:8000", r) // Start the HTTP server on localhost:8000 with the router r
 	if err != nil {
 		log.Error(err)
